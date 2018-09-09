@@ -2,17 +2,17 @@
 #!/bin/bash
 
 TMP_FOLDER=$(mktemp -d)
-CONFIG_FILE='shmn.conf'
-CONFIGFOLDER='/root/.shmn'
-COIN_DAEMON='shmnd'
-COIN_CLI='shmn-cli'
-COIN_TX='shmn-tx'
+CONFIG_FILE='CampuCoin.conf'
+CONFIGFOLDER='/root/.CampusCoin'
+COIN_DAEMON='CampusCoind'
+COIN_CLI='CampusCoin-cli'
+COIN_TX='CampusCoin-tx'
 COIN_PATH='/usr/local/bin/'
 COIN_TGZ='https://github.com/bitcoinbabys/StrongHandsMasterNode/releases/download/v230/shmnd-v230-ubu64.zip'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='shmn'
-COIN_PORT=50005
-RPC_PORT=50006
+COIN_PORT=28195
+RPC_PORT=28196
 
 NODEIP=$(curl -s4 icanhazip.com)
 
