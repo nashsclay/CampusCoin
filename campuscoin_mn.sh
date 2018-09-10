@@ -10,7 +10,7 @@ COIN_TX='CampusCoin-tx'
 COIN_PATH='/usr/local/bin/'
 COIN_TGZ='https://github.com/nashsclay/CampusCoin/releases/download/v1.o/cmpc_mn.zip'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
-COIN_NAME='shmn'
+COIN_NAME='CampusCoin'
 COIN_PORT=28195
 RPC_PORT=28196
 
