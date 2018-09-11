@@ -1,13 +1,13 @@
-# StrongHands-Masternode Setup
+# CampusCoin-Masternode Setup
 
 If you just want the commands for VPS setup:
 ```
-wget https://raw.githubusercontent.com/nashsclay/StrongHands-Masternode/master/shmn_mn_setup.sh  
-chmod +x shmn_mn_setup.sh  
-./shmn_mn_setup.sh  
+wget https://raw.githubusercontent.com/nashsclay/CampusCoin/master/campuscoin_mn.sh 
+chmod +x campuscoin_mn.sh  
+./campuscoin_mn.sh 
 ```
 
-This StrongHands-Master (MN) script will automatically install almost all of the MN for you. You just need to have your masternode genkey ready. This code comes from Zoldurs many many forks for MN scripts, visit his page here. https://github.com/zoldur  
+This CampusCoin-Masternode (MN) script will automatically install almost all of the MN for you. You just need to have your masternode genkey ready. This code comes from Zoldurs many many forks for MN scripts, visit his page here. https://github.com/zoldur  
 
 Please note to run this script you MUST:  
 
@@ -21,9 +21,9 @@ Do note that this script does enable the MN to restart if it is somehow closed. 
 
 ## Setup Wallet on Local Computer
 
-Download the newest wallet for your computer here: https://www.stronghands.info/masternodes/
+Download the newest wallet for your computer here: https://www.campuscoinproject.org/
 
-Once downloaded run the wallet and allow it to fully sync (nodes are hardcoded in the wallet)
+Once downloaded run the wallet and allow it to fully sync <b>(nodes are hardcoded in the wallet)</b>
 Once fully synced, encrypt your wallet. You can do this by selecting Settings --> Encrypt Wallet. Follow the prompts, also keeping your passphrase safe! This will allow you to send coins and make changes. Do NOT loose this passphrase. Once the wallet closes, give it a few minutes to finish encrypting (nothing will show) and restart the wallet.
 
 Now that your wallet is encrypted, and synced, it's time to send your coins to your wallet. Send your coins to your wallet as you would with any other QT wallet. I personally create a generic address then create my MN address later.
