@@ -2,11 +2,11 @@
 #!/bin/bash
 
 TMP_FOLDER=$(mktemp -d)
-CONFIG_FILE='cmpco.conf'
-CONFIGFOLDER='/root/.cmpco'
-COIN_DAEMON='cmpcod'
-COIN_CLI='cmpco-cli'
-COIN_TX='cmpco-tx'
+CONFIG_FILE='cc.conf'
+CONFIGFOLDER='/root/.CC'
+COIN_DAEMON='ccd'
+COIN_CLI='cc-cli'
+COIN_TX='cc-tx'
 COIN_PATH='/usr/local/bin/'
 COIN_TGZ='https://github.com/nashsclay/CampusCoin/releases/download/v1.o/cmpc_mn.zip'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
