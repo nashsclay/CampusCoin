@@ -3,7 +3,7 @@
 
 TMP_FOLDER=$(mktemp -d)
 CONFIG_FILE='cc.conf'
-CONFIGFOLDER='/root/.CC'
+CONFIGFOLDER='/root/.cc'
 COIN_DAEMON='ccd'
 COIN_CLI='cc-cli'
 # COIN_TX='cc-tx'
