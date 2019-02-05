@@ -6,7 +6,7 @@ CONFIG_FILE='cc.conf'
 CONFIGFOLDER='/root/.cc'
 COIN_DAEMON='ccd'
 COIN_CLI='cc-cli'
-# COIN_TX='cc-tx'
+COIN_TX='cc-tx'
 COIN_PATH='/usr/local/bin/'
 COIN_TGZ='https://explorer.campuscoinproject.org/cc_linux.zip'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
@@ -29,8 +29,8 @@ function download_node() {
   compile_error
   unzip $COIN_ZIP >/dev/null 2>&1
   #cd bin #verify
-  chmod +x $COIN_DAEMON $COIN_CLI # $COIN_TX 
-  cp $COIN_DAEMON $COIN_CLI $COIN_PATH # $COIN_TX
+  chmod +x $COIN_DAEMON $COIN_CLI $COIN_TX 
+  cp $COIN_DAEMON $COIN_CLI $COIN_TX $COIN_PATH
   cd ~ >/dev/null
   rm -rf $TMP_FOLDER >/dev/null 2>&1
   clear
