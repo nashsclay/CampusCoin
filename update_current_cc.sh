@@ -18,4 +18,4 @@ sudo rm -R ~/.cc/database/
 sudo rm ~/.cc/budget.dat ~/.cc/db.log ~/.cc/debug.log ~/.cc/fee_estimates.dat ~/.cc/mncache.dat ~/.cc/mnpayments.dat ~/.cc/peers.dat
 sudo rm cc_linux.zip
 systemctl start CampusCoin.service
-echo "Masternode restarted"
+echo "Masternode restarted. Any errors about files not existing is ok."
