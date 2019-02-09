@@ -29,6 +29,7 @@ function download_node() {
   compile_error
   unzip $COIN_ZIP >/dev/null 2>&1
   #cd bin #verify
+  rm cc-qt
   chmod +x $COIN_DAEMON $COIN_CLI $COIN_TX 
   cp $COIN_DAEMON $COIN_CLI $COIN_TX $COIN_PATH
   cd ~ >/dev/null
