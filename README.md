@@ -1,6 +1,12 @@
 # CampusCoin-Masternode Setup
+If you want the commands just to UPDATE your CURRENT MN:
+```
+wget https://raw.githubusercontent.com/nashsclay/CampusCoin/master/update_current_cc.sh
+chmod +x update_current_cc.sh  
+./update_current_cc.sh 
+```
 
-If you just want the commands for VPS setup:
+If you just want the commands for a NEW VPS setup:
 ```
 wget https://raw.githubusercontent.com/nashsclay/CampusCoin/master/campuscoin_mn.sh 
 chmod +x campuscoin_mn.sh  
