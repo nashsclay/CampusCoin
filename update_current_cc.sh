@@ -6,7 +6,8 @@ echo "Ubuntu 16.04 is the recommended opearting system for this install."
 echo
 
 cd /usr/local/bin/
-wget https://github.com/campuscoindev/CC/releases/download/3.0.2/cc_linux.zip
+echo "Script may appear frozen for a few seconds. This is normal."
+wget -c https://github.com/campuscoindev/CC/releases/download/3.0.2/cc_linux.zip
 sudo rm ccd cc-cli cc-tx
 sudo unzip cc_linux.zip
 sudo rm cc-qt
