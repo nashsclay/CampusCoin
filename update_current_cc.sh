@@ -7,7 +7,7 @@ echo
 
 cd /usr/local/bin/
 echo "Script may appear frozen for a few seconds. This is normal."
-wget -c https://github.com/campuscoindev/CC/releases/download/3.0.2.1/cc_linux.zip
+wget -c https://github.com/campuscoindev/CC/releases/download/3.0.2.2/cc_linux.zip
 sudo rm ccd cc-cli cc-tx
 sudo unzip cc_linux.zip
 sudo rm cc-qt
